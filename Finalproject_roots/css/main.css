@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i|Podkova:400,500,600,700,800');
+
+
+
+html, body {
+    height: 100%;
+}
+
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #353939;
+}
+
+
+.lefthalf {
+    background-color: #3BCEC8;
+    height: 100%;
+    float: left;
+    width: 50%;
+    position: fixed;
+}
+
+
+.righthalf {
+    background-image: url(../images/sfo_bw.jpg);
+    height: 100%;
+    float: right;
+    width: 50%;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+
+article {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+
+.title {
+    font-family: 'Podkova', serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 100px;
+    color: #FFF3F3;
+}
+
+
+.quote {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFF3F3;
+    font-weight: 300;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60PX;
+}
+
+
+.rachel {
+    line-height: 48px;
+    font-size: 14px;
+}
+
+
+.orangetext {
+    color: #FF9A49;
+}
+
+
+nav {
+    height: 50px;
+}
+
+
+ul {
+    position: relative;
+    float: right;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-right: 40px;
+    text-align: right;
+}
+
+
+li {
+    position: relative;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*links*/
+a {
+    text-decoration: none;
+    color: #FFF3F3;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+a:hover {
+    color: #FF9A49;
+}
+
+
+/*gives a border line under a list when a page is actiive*/
+.active {
+    border-bottom: 1px solid #FFF3F3;
+    padding-bottom: 4px;
+}
+
+
+.headline {
+    position: relative;
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+
+.lefthalf2 {
+    background-color: #3BCEC8;
+    background: rgba(59, 206, 200, 0.9);
+    height: 100%;
+    float: left;
+    width: 50%;
+    position: fixed;
+    z-index: +10;
+}
+
+
+.why_airport {
+    background-image: url(../images/airport_why.jpg);
+    z-index: -10;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.wrapper {
+    height: 100%;
+    float: right;
+    width: 50%;
+    background-color: #fff3f3
+}
+
+
+.right_text {
+    top: 50%;
+    height: auto;
+    width: 70%;
+    background-color: #fff3f3;
+    background: rgba(255, 243, 243, 0.9);
+    color: #353939;
+    position: relative;
+}
+
+.subhead {
+    font-family: 'Podkova', serif;
+    font-weight: 500;
+    font-size: 46px;
+    padding: 50px 10px 10px 10px;
+    text-align: center;
+    color: #353939;
+}
+
+
+.dots {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 28px;
+    color: #353939;
+}
+
+.story {
+    color: #353939;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 100px 0px 100px;
+    text-align: justify;
+}
+
+
+.righthalf_why {
+    height: 100%;
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+
+.sfo_image {
+    background-image: url(../images/sfo_airplane_bw.jpg);
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.nextpage {
+    color: #353939;
+}
+
+
+.next_page {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+.sfo_image_inside {
+    background-image: url(../images/sfo_inside_bw.jpg);
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.right_text_2 {
+    height: auto;
+    width: 100%;
+    background-color: #fff3f3;
+    background: rgba(255, 243, 243, 0.9);
+    color: #353939;
+}
+
+
+.bold {
+    font-weight: 400;
+    font-style: italic;
+    
+}
+
+
+.story_2 {
+    color: #353939;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+
+.link_story {
+    color: #FF9A49;
+}
+
+
+.ngo_image {
+    background-image: url(../images/ngo_airplane.jpg);
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+}
+
+.italic_name {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.ngo_image_inside {
+    background-image: url(../images/ngo_inside.jpg);
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+}
+
+
+/*photo gallery*/
+.photo_1 {
+    background-image: url(../images/photo_1.jpg);
+    min-height: 100%;
+}
+
+
+.photo_1, .photo_2, .photo_3, .photo_4, .photo_5, .photo_6 {
+    position: relative;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: auto;
+    margin: 0px auto;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Podkova', serif;
+    font-weight: 500;
+    line-height: 100px;
+    color: #fff3f3;
+    font-size: 90px;
+    background-color: #3bcec8;
+    background: rgba(59, 206, 200, 0.7);
+    padding: 80px;
+}
+
+
+.photo_title {
+    font-family: 'Podkova', serif;
+    color: #353939;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.box {
+    background-color: #fff3f3;
+    text-align: center;
+    padding: 20px 400px;
+}
+
+
+.photo_2 {
+    background-image: url(../images/photo_2.jpg);
+    min-height: 100%;
+}
+
+
+.photo_text {
+    color: #353939;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+
+.photo_3 {
+    background-image: url(../images/photo_3.jpg);
+    min-height: 500px;
+    opacity: 0.9;
+}
+
+
+.photo_4 {
+    background-image: url(../images/photo_4.jpg);
+    min-height: 80%;
+}
+
+
+/*slightly bigger font-size for the last word*/
+.photo_title_2 {
+    font-family: 'Podkova', serif;
+    color: #353939;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.photo_5 {
+    background-image: url(../images/photo_5.jpg);
+    min-height: 400px;
+    opacity: 0.9;
+}
+
+
+.photo_6 {
+    background-image: url(../images/photo_6.jpg);
+    min-height: 500px;
+    opacity: 0.9;
+}
+
+/*the bottom box (slightly bigger than other boxes)*/
+.box_2 {
+    background-color: #fff3f3;
+    text-align: center;
+    padding: 50px 400px;
+}
+
+
+/*adjust navigation bar only for gallery page*/
+.nav_photo {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: #cfd6d6;
+    background: rgba(207, 214, 214, 0.9);
+}
+
+
+.list_photo {
+    position: fixed;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
